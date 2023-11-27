@@ -1,0 +1,33 @@
+-- Host:                         127.0.0.1
+-- Versión del servidor:         8.1.0 - MySQL Community Server - GPL
+-- SO del servidor:              Win64
+-- HeidiSQL Versión:             12.6.0.6765
+-- --------------------------------------------------------
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+
+INSERT INTO `oradores` (`id_orador`, `nombre`, `apellido`, `mail`, `tema`, `fecha_alta`) VALUES
+	(1, 'Agustin', 'Espada', 'Email234@gmail.com', 'Base de datos', '2023-11-20 15:32:04'),
+	(2, 'Carlos', 'Ceppede', 'Email234@gmail.com', 'Java-Script', '2023-11-20 15:34:28'),
+	(3, 'Ezequiel', 'Donda', 'Email234@gmail.com', 'Front-End', '2023-11-20 15:37:09'),
+	(4, 'Fabrizio', 'Lacona', 'Email234@gmail.com', 'Python', '2023-11-20 15:42:12'),
+	(5, 'Facundo', 'Villalva', 'Email234@gmail.com', 'Back-End', '2023-11-20 15:44:46'),
+	(6, 'Lucioano', 'Altamirano', 'Email234@hotmail.com', 'Java-Script', '2023-11-20 15:45:55'),
+	(7, 'Jeremias', 'Scamina', 'Email234@gmail.com', 'C++', '2023-11-20 15:48:11'),
+	(8, 'Martin', 'Altamar', 'Email234@gmail.com', 'Python', '2023-11-20 15:52:29'),
+	(9, 'Valentin', 'Paz', 'Email234@gmail.com.ar', 'Base de datos', '2023-11-20 15:54:21'),
+	(10, 'Gabriel', 'Tamail', 'Email234@gmail.com', 'Back-End', '2023-11-20 15:56:38');
+
+/*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
+/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
